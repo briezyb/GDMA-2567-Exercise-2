@@ -116,7 +116,7 @@ figure { /*will have to take from chrome, then replace with 0*/
 	width: calc(100%*5/12); /*with have two col 5's and a col 2 so it equals 12*/
 	}
 	
-.col-sm-6 {
+.col-md-6 {
 	width: calc(100%*6/12);
 	}
 
@@ -150,9 +150,9 @@ figure { /*will have to take from chrome, then replace with 0*/
 	width: 80%;
 }
 	
-	.col-lg-1 {
-	width: calc(100%*1/12); /*these are for medium display*/
-	}
+  .col-lg-1 {
+  width: calc(100%*1/12); /*these are for medium display*/
+  }
 
 .col-lg-2 {
 	width: calc(100%*2/12);
