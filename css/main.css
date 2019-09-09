@@ -23,6 +23,17 @@
 	clear: both;
 }
 
+.img-responsive {
+	max-width: 100%;
+}
+
+figure { /*will have to take from chrome, then replace with 0*/
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
 /*targets every class with col-*/
 [class*="col-"]{
 	padding: 0 10px;/*must use padding, no margin*/
@@ -199,6 +210,23 @@
 	background-color: #FFABAC;
 	height: 300px;
 }
+
+#bg-horses {
+	background-image: url("../img/bg-horses.jpg");
+	background-size: cover;
+	background-origin: content-box;
+	height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
