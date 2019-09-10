@@ -212,12 +212,9 @@ figure { /*will have to take from chrome, then replace with 0*/
 }
 
 #bg-horses {
-	background-image: url("../img/bg-horses.jpg");
-	background-size: cover;
-	background-origin: content-box;
-	height: 300px;
+  background: url("../img/bg-horses.jpg") 0 0/cover content-box content-box;
+  height: 300px;
 }
-
 
 
 
